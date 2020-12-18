@@ -4,6 +4,7 @@
 #include "ros2_test_base/visibility_control.h"
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_components/register_node_macro.hpp"
+#include "behaviortree_cpp_v3/behavior_tree.h"
 
 namespace ros2_test_base
 {

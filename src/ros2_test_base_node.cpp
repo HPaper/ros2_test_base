@@ -8,6 +8,8 @@ Ros2TestBaseNode::Ros2TestBaseNode(const rclcpp::NodeOptions & node_options)
 {
   setvbuf(stdout, nullptr, _IONBF, BUFSIZ);
   RCLCPP_INFO(this->get_logger(), "Test node was started.");
+
+
 }
 
 Ros2TestBaseNode::~Ros2TestBaseNode()
